@@ -1,10 +1,26 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
+  max-width: 800px;
+  margin: 20px auto;
   padding: 2rem;
   text-align: center;
 }
+.list-item {
+  background-image: linear-gradient(to bottom right, rgb(179, 166, 166), rgb(255, 0, 242));
+  border: black solid;
+  
+  padding: 10px;
+  margin: 20px;
+}
+.list {
+  background-color: rgba(177, 43, 201, 0.618);
+  border: rgb(0, 0, 0) solid 20px;
+  padding: 10px
+}
 
+button{
+  background-color: black;
+  color: #ffffff;
+}
 #userDetails {
   display: flex;
   justify-content: center;
